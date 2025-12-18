@@ -38,6 +38,9 @@ metadata:
     - url: https://www.patternfly.org/
       title: PatternFly Design System
       icon: help
+    - url: https://mui.com/material-ui/getting-started/
+      title: Material UI
+      icon: help
 
 spec:
   type: team
