@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backend-team
+  title: Backend & Integration Team
+  description: Responsible for RHDH backend plugins, custom Scaffolder actions, and data ingestion logic.
+spec:
+  type: team
+  parent: rhdh # Link to Parent
+  profile:
+    displayName: Backend Squad
+  # Annotations for their specific tools
+  annotations:
+    slack.com/channel-id: C_BACKEND_ID
+    jira/project-key: BEND

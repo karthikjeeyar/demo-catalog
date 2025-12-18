@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: qe-team
+  title: Quality Engineering
+  description: Ensuring the stability and performance of RHDH through automated testing and release gating.
+spec:
+  type: team
+  parent: rhdh # Link to Parent
+  profile:
+    displayName: QE Squad

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhdh
+  title: RHDH
+  description: The overarching organization responsible for the Red Hat Developer Hub platform.
+spec:
+  type: department
+  children: 
+    - group:default/ui-team
+    - group:default/backend-team
+    - group:default/qe-team
