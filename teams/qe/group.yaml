@@ -9,3 +9,4 @@ spec:
   parent: rhdh # Link to Parent
   profile:
     displayName: QE Squad
+  children: []
