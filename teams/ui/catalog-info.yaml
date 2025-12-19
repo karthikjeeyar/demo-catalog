@@ -46,4 +46,3 @@ spec:
   type: team
   lifecycle: production
   owner: group:default/ui-team
-  system: platform-experience
